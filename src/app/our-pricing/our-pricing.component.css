@@ -1,0 +1,45 @@
+.ourPricingBackground{
+    background-color: #7E76F9;
+    opacity: 0.14901960784313725;
+    height: 120vh;
+    width: 110vw;
+    position:absolute;
+    top: 390%;
+    z-index: -2;
+}
+.ourPricingTitle{
+    z-index: 2;
+    position:absolute;
+    top: 400%;
+    left: 42%;
+    font-size: 3vw;
+    font-family: Poppins-SemiBold;
+    color: #42495B;
+    
+}
+
+.ourPricingWord{
+    position:absolute;
+    top: 395%;
+    left: 49%;
+    color: #7E76F9;
+    font-family: SegoeUI;
+    font-size: 1.2vw;
+}
+
+.ourPricingFlexBoxes{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+    position: absolute;
+    top: 420%;
+    left: 19%;    
+}
+
+.ourPricingBoxesToLeft{
+
+    margin-left: 10%;
+}

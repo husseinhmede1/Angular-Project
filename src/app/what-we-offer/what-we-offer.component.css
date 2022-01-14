@@ -1,0 +1,53 @@
+.whatWeOfferOurServices{
+    font-family: Lato-Regular;
+    color: #7E76F9;
+    font-size: 1.2vw;
+
+}
+.whatWeOfferTitle{
+    font-family: Poppins-SemiBold;
+    color: #42495B;
+    font-size: 3vw;
+}
+.whatWeOfferTitleFlex{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+    position:absolute;
+    top: 215%;
+    left: 12%;
+
+}
+.whatWeOfferRow{
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+    margin-top: 10%;
+    margin-left: 40%;
+    
+}
+.whatWeOfferBoxes{
+position:absolute;
+top: 220%;
+left: 5%;
+}
+.cardTwoToLeft{
+margin-left: 20%;
+}
+
+.whatWeOfferBackground{
+    height:100vh;
+    background-repeat: no-repeat;
+    contain: content;
+    background-size: 100%;
+    background-image: url('../../assets/img/Group 1238@1X.png');
+    opacity: 0.2;
+    margin-top: 30%;
+}

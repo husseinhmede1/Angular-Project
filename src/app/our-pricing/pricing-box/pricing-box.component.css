@@ -1,0 +1,62 @@
+.pricingWhiteBox{
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    width: 110%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgb(185, 183, 183), 0 6px 20px 0 rgb(185, 183, 183);
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.pricingWhiteBoxTitle{
+    white-space:nowrap;
+    color: #42495B;
+    font-family: SegoeUI;
+    font-size: 2vw;
+    margin-left: 20%;
+}
+
+.pricingWhiteBoxText{
+    color: #7A839E;
+    font-family: Poppins-Light;
+    font-size: 1vw;
+    width: 20vw;
+    margin-left: 5%;
+}
+
+.pricingWhiteBoxFresh{
+    color: #7E76F9;
+    font-family: Poppins-SemiBold;
+    font-size: 2.1vw;
+    margin-left: 35%;
+}
+
+
+.ourPricingWhiteButton{
+    background-color: #ffffff;
+    border: solid 0.1vw;
+    border-color: #7E76F9;
+    padding: 4%;
+    width: 40%;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins-Medium;
+    font-size: 0.7vw;
+    margin-left: 29%;    
+}
+
+.ourPricingBlueButton{
+    background-color: #7E76F9;
+    border: 0;
+    padding: 4%;
+    width: 40%;
+    border-radius: 40px;
+    color: white;
+    font-family: Poppins-Medium;
+    font-size: 0.7vw;
+    margin-left: 29%;    
+}

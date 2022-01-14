@@ -1,0 +1,37 @@
+.navHeader{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+    position: absolute;
+    left: 65%;
+    top: 8%;
+}
+
+.spanNavHeader{
+    margin-left: 15%; 
+    font-size: 1vw;
+    font-family: Poppins-Medium;
+    color: white;
+}
+
+.logoHeaderHome{
+    font-family: Dosis-VariableFont_wght;
+    position: absolute;
+    left: -350%;
+    font-size: 3vw;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 100px){
+ 
+.spanNavHeader{
+    margin-left: 15%; 
+    font-size: 1.5vw;
+    font-family: Poppins-Medium;
+    color: white;
+}
+   
+}

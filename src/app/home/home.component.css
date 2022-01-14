@@ -1,0 +1,222 @@
+.flexBoxHome{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.homeBackground{
+    height:100vh;
+    background-repeat: no-repeat;
+    contain: content;
+    background-position:90%;
+    background-size: 35%;
+    background-image: url('../../assets/img/undraw_social_ideas_e8rj.png');
+    top: 10%;
+
+}
+
+.bgShapeHome{
+    height:100vh;
+    width: 60%;
+    background-repeat: no-repeat;
+    contain: content;
+    background-position:90%;
+    background-size: 100%;
+    background-image: url('../../assets/img/Bg Shape@1X.png');
+    transform:rotate(180deg);
+    position: absolute;
+    left: 40%;
+    top: -22%;
+    border-top-left-radius: 100vh;
+    border-top-right-radius:1000% ;
+}
+.homeLeft{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+    margin-left: 10%;
+    width: 50vw;
+
+}
+
+.homeSocialTitle{
+    font-size: 3vw;
+    font-family: Poppins-SemiBold;
+    color: #42495B;
+}
+
+.homePerfomanceText{
+font-size: 1vw;
+font-family: Poppins-Light;
+color: #7A839E;
+}
+
+.homeButtonGet{
+background-color: #7E76F9;
+border: 0;
+padding: 2%;
+width: 40%;
+border-radius: 40px;
+color: white;
+font-family: Poppins-SemiBold;
+font-size: 1vw;
+margin-top: 5%;
+}
+
+.socialMediaFlexBox{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+
+.homeLeftFlexBox{
+    position:absolute;
+    left: 0%;
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+
+}
+
+.socialMediaSpaceBetween{
+    margin-top: 5vh;
+}
+
+.homeMouse{
+    height: 7vh;
+    width: 3vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgb(204, 203, 203), 0 6px 20px 0 rgb(199, 198, 198);
+    position:absolute;
+    top: 80%;
+    left: 45%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.homeMouseImg{
+width: 40%;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 601px){
+    
+.bgShapeHome{
+    height:100vh;
+    width: 62%;
+    background-repeat: no-repeat;
+    contain: content;
+    background-position:90%;
+    background-size: 100%;
+    background-image: url('../../assets/img/Bg Shape@1X.png');
+    transform:rotate(180deg);
+    position: absolute;
+    left: 40%;
+    top: -35%;
+    border-top-left-radius: 100vh;
+    border-top-right-radius:1000% ;
+}
+}
+@media only screen and (max-width: 600px) and (min-width: 100px){
+    
+    .bgShapeHome{
+        height:100vh;
+        width: 65%;
+        background-repeat: no-repeat;
+        contain: content;
+        background-position:90%;
+        background-size: 100vh;
+        background-image: url('../../assets/img/Bg Shape@1X.png');
+        transform:rotate(180deg);
+        position: absolute;
+        left: 40%;
+        top: -30%;
+        border-top-left-radius: 100vh;
+        border-top-right-radius:1000% ;
+    }
+    
+    .homeBackground{
+        height:100vh;
+        background-repeat: no-repeat;
+        contain: content;
+        background-position:90%;
+        background-size: 35%;
+        background-image: url('../../assets/img/undraw_social_ideas_e8rj.png');
+        margin-top: -10%;
+    }
+    .homeLeft{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 60vw;
+    
+}
+.homeSocialTitle{
+    font-size: 5vw;
+    font-family: Poppins-SemiBold;
+    color: #42495B;
+}
+
+.homePerfomanceText{
+    font-size: 2vw;
+    font-family: Poppins-Light;
+    color: #7A839E;
+    }
+    
+.homeButtonGet{
+    background-color: #7E76F9;
+    border: 0;
+    padding: 5%;
+    width: 60%;
+    border-radius: 40px;
+    color: white;
+    font-family: Poppins-SemiBold;
+    font-size: 2vw;
+    margin-top: 5%;
+    }
+    
+    
+.homeMouse{
+    height: 7vh;
+    width: 3vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgb(204, 203, 203), 0 6px 20px 0 rgb(199, 198, 198);
+    position:absolute;
+    top: 80%;
+    left: 75%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+    }
+    

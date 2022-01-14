@@ -1,0 +1,145 @@
+.whoWeArePhone{
+    height:60vh;
+    background-repeat: no-repeat;
+    contain: content;
+    background-position:15%;
+    background-size: 35%;
+    background-image: url('../../assets/img/undraw_social_dashboard_k3pt.png');
+    margin-top: -80vh;
+    z-index: 2;
+}
+
+.whoWeAreGroupe{
+    height:100vh;
+    background-repeat: no-repeat;
+    contain: content;
+    background-position:100%;
+    background-size: 55%;
+    background-image: url('../../assets/img/Group 182@1X.png');
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.whoWeAreButton{
+    background-color: #7E76F9;
+    border: 0;
+    padding: 3%;
+    width: 35%;
+    border-radius: 40px;
+    color: white;
+    font-family: Poppins-SemiBold;
+    font-size: 0.8vw;
+    margin-top: 5%;
+}
+.whoWeAreBiography{
+    margin-top: -5%;
+    font-family: SEGOEUI;
+    color: #7E76F9;
+    font-size: 1.2vw;
+}
+
+.whoWeAreTitle{
+    font-size: 3vw;
+    font-family: Poppins-SemiBold;
+    color: #42495B;
+}
+
+.whoWeAreText{
+    font-size: 1vw;
+    font-family: Poppins-Light;
+    color: #7A839E;
+    margin-top: 5%;
+}
+
+.whoWeAreRight{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+    width: 30vw;
+    position: absolute;
+    left: 50%;
+    top: 130%;
+} 
+
+
+
+@media only screen and (max-width: 300px) and (min-width: 100px){
+
+    .whoWeAreRight{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+        width: 60vw;
+        position: absolute;
+        left: 20%;
+        top: 100%;
+    } 
+    
+    
+.whoWeAreBiography{
+    margin-top: -5%;
+    font-family: SEGOEUI;
+    color: #7E76F9;
+    font-size: 2vw;
+}
+.whoWeAreTitle{
+    font-size: 4vw;
+    font-family: Poppins-SemiBold;
+    color: #42495B;
+}
+
+.whoWeAreText{
+    font-size: 2vw;
+    font-family: Poppins-Light;
+    color: #7A839E;
+    margin-top: 5%;
+}
+.whoWeAreText{
+    font-size: 2vw;
+    font-family: Poppins-Light;
+    color: #7A839E;
+    margin-top: 5%;
+}
+
+.whoWeAreButton{
+    background-color: #7E76F9;
+    border: 0;
+    padding: 4%;
+    width: 90%;
+    border-radius: 40px;
+    color: white;
+    font-family: Poppins-SemiBold;
+    font-size: 2vw;
+    margin-top: 5%;
+}
+
+.whoWeAreGroupe{
+    height:100vh;
+    background-repeat: no-repeat;
+    contain: content;
+    background-position:100%;
+    background-size: 55%;
+    background-image: url('../../assets/img/Group 182@1X.png');
+    opacity: 0.15;
+    z-index: -1;
+    margin-top: 0%;
+    
+}
+.whoWeArePhone{
+    height:60vh;
+    background-repeat: no-repeat;
+    contain: content;
+    background-position:15%;
+    background-size: 70%;
+    background-image: url('../../assets/img/undraw_social_dashboard_k3pt.png');
+    z-index: 2;
+
+}
+}
+
